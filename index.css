@@ -115,6 +115,11 @@ nav{
 	color: rgb(223, 226, 43);
 	letter-spacing: 2px;
 }
+.dropdown-btn:hover .dropdown-content li a:hover{
+
+	color: thistle;
+}
+
 
 .fas{
 
