@@ -3,121 +3,48 @@
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
+	/* background-color: rgb(16, 113, 126); */
 }
 
 header{
 
 	width: 100%;
 	height: 100vh;
-	background: linear-gradient(to left,white ,rgb(15, 240, 82) );
+	background: linear-gradient(to left,rgb(114, 158, 158)  ,rgb(18, 97, 150) );
 
 }
 
-#profile{
 
-	width: 30wh;
-	height: 30vh;
-}
-
-nav{
-
-
-	width: 100%;
-	height:20vh;
-	/*background-color: green;*/
-
-	/*text-decoration: none;*/
-	display: flex;
-	/*justify-content: space-between;*/
-	align-items: center;
-
-}
-
-nav .logo{
-
-	width: 30%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-nav a{
-
-	width: 30%;
-	/*background-color: black;*/
-	display: flex;
-	/* background-color: #5050cb; */
-	justify-content: space-around;
-	text-decoration: none;
-	color: black;
-}
-.dropdown-content{
-	position: absolute;
-	width: 200px;
-	display: none;
-}
-.dropdown-btn:hover .dropdown-content {
-
-	display: block;
-	/* position: absolute; */
-	/* margin-top: 15px; */
-	/* margin-left: -15px; */
-	/* background-color: #5050cb; */
-
-	/* width: 12%; */
-
-}
-
-.dropdown-btn+li{
-	display: block;
-	background: brown;
-}
-/* .profiles{
-	display: flex;
-	/*background-color: blue;*/
-	/* justify-content: space-around;
-	align-items: center;
-}
- */ 
-
-/* .dropdown-btn:hover .dropdown-content li{
-
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	border-bottom: 2px solid #68e1d7;
-
-  /*bottom: -10px;*/
-	/* margin:10px;
-  text-transform: uppercase;
-
-} */ 
-.fas{
-
-	margin-left: 10px;
-}
 
 
 .navsection{
 	width: 100%;
 	height: 20vh;
-	background-color: blueviolet;
 	display: flex;
 	justify-content: space-around;
 	align-items:center;
-	background: linear-gradient(to top,white,rgb(0, 255, 76) );
+	/* background: linear-gradient(to top,white,rgb(81, 219, 189)); */
+	
+}
 
 
+.logo{
+
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .logo{
 	font-family: 'Roboto', sans-serif;
 	width: 43%;
-	background: linear-gradient(rgb(15, 211, 236),blue);
-	padding-left:100px ;
+	background: linear-gradient(rgb(15, 211, 236),rgb(26, 71, 219));
+	/* padding-left:100px ; */
+	padding-top: 10px;
 	color: white;
-	box-sizing: border-box;
+	
+
 	
 }
 
@@ -135,3 +62,119 @@ nav a{
 	}
 	to {padding-left: 50%;}
 }
+
+nav{
+	width: 60%;
+	height:20vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.nav-inside{
+	font-weight: 500;
+	font-size: 20px;
+	text-decoration: none;
+	color: rgb(202, 216, 7);
+	letter-spacing: 2px;
+}
+/* .profiles{
+	color: blueviolet;
+} */
+.dropdown-content{
+	display: none;
+	/* text-decoration: none; */
+
+}
+.dropdown-btn:hover .dropdown-content{
+
+	display: block;
+	position: absolute;
+	/* width: 18%; */
+	/* padding-left: 0%; */
+	background-color: rgb(74, 86, 94);
+	/* margin: 0 10px 10px 10px; */
+	list-style: none;
+}
+
+.dropdown-btn:hover .dropdown-content li{
+
+	display: block;
+	padding: 10px;
+	box-sizing: border-box;
+	text-decoration: none;
+
+	font-weight:500;
+
+}
+
+
+.dropdown-btn:hover .dropdown-content li a{
+
+	text-decoration: none;
+	color: rgb(223, 226, 43);
+	letter-spacing: 2px;
+}
+
+.fas{
+
+	margin-left: 10px;
+}
+
+
+/* .nav-inside:before{
+
+	content:"";
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	transition: all 0.4s solid linear;
+} */
+/* .nav-inside:hover:before{
+
+	width: 100%;
+} */
+
+main{
+	height: 80vh;
+	display: flex;
+	/* padding-left: 10%; */
+	justify-content: space-around;
+	align-items: center;
+}
+
+.right_side{
+
+	/* border-radius:27% 33% 24% 18% / 0% 0% 0% 0%  ; */
+	/* background-color: rgb(247, 12, 168); */
+	box-sizing: border-box;
+	width: 40%;
+	height: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: conic-gradient(rgb(11, 92, 214), white, rgb(130, 224, 236));
+	/* background: linear-gradient(to left bottom,blue,black); */
+}
+
+#self_image{
+
+	/* max-width: 100%; */
+	width: 50%;
+	padding-top: 150px;
+	height: auto;
+	
+
+}
+
+.left_side{
+
+	width: 40%;
+	display: block
+	
+
+}
+
+
