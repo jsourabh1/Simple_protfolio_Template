@@ -42,7 +42,7 @@ header{
 	background: linear-gradient(rgb(15, 211, 236),rgb(26, 71, 219));
 	/* padding-left:100px ; */
 	padding-top: 10px;
-	color: white;
+	color: rgb(223, 226, 7);
 	
 
 	
@@ -162,8 +162,8 @@ main{
 #self_image{
 
 	/* max-width: 100%; */
-	width: 50%;
-	padding-top: 150px;
+	width: 60%;
+	padding-top: 100px;
 	height: auto;
 	
 
@@ -171,10 +171,73 @@ main{
 
 .left_side{
 
-	width: 40%;
-	display: block
-	
+	width: 50%;
+	height: 80vh;
+	/* display: block; */
+	/* background-color: black; */
 
 }
+.left_side h5{
 
+	font-weight: 700;
+	padding-top: 0px;
+	font-size: 10px;
+	letter-spacing: 1px;
+	color: burlywood;
+}
+.left_side h1{
 
+	margin-top:8px;
+	color:rgb(248, 184, 99);
+	font-size: 50px;
+
+	font-family: 'Stylish', sans-serif;
+}
+.designation{
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 10px;
+
+	color: burlywood;
+}
+.designation-inside:after {
+	
+
+	content: "";
+	animation: changetext 5s infinite linear;
+	font-size: 30px;
+	font-weight: 300;
+
+	color: rgb(196, 136, 97);
+	font-family: 'Stylish', sans-serif;
+}
+@keyframes changetext {
+
+	0% {
+    content: "Software Developer";
+  }
+  50%{
+    content: "Web Developer";
+  }
+  100% {
+    content: "Problem Solver";
+  }
+  
+  }
+
+.introduction{
+	width: 80%;
+	height: 20vh;
+	/* background-color: tomato; */
+
+	color: rgb(198, 201, 60);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	text-transform: none;
+}
